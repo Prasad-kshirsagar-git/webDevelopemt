@@ -1,0 +1,13 @@
+.bag_btn{
+  background-color: lightgreen;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.whishList_btn{
+  padding: 5px 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-transform: uppercase;
+}

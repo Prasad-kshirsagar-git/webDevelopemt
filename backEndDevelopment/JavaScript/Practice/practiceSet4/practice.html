@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Prctice</title>
+  <style>
+    .btn_subscribe {
+      height: 40px;
+      width: 80px;
+      font-size: 15px;
+      background-color: rgb(109, 12, 12);
+      color: white;
+      border-radius: 4px;
+    }
+
+    .js_size_double {
+      height: 80px;
+      width: 160px;
+      font-size: 30px;
+      background-color: rgb(109, 12, 12);
+      color: white;
+      border-radius: 8px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <button class = "btn_subscribe">Subscribe</button>
+
+  <script>
+    // let multiply = (num1,num2) => num * num;
+    // console.log(multiply);
+
+    // let printGreeting = () => console.log('Namaste');
+
+    // let runTwice = inputFunction => {
+    //   inputFunction();
+    //   inputFunction();
+    // };
+    // runTwice(printGreeting);
+
+    function doubleSize() {
+      btnElement.classList.add('js_size_double');
+    }
+    
+    let btnElement = document.querySelector('.btn_subscribe');
+
+    btnElement.addEventListener('click', event => 
+    setTimeout(doubleSize, 2000))
+  
+  </script>
+</body>
+</html>
